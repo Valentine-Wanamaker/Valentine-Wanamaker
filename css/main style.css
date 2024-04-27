@@ -18,15 +18,15 @@ nav {
     display: flex;
     justify-content: left;
     background-color: #eaeaea;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a {
     color: #232323;
     text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 0 5px;
+    border-radius: 0px;
     transition: background-color 0.3s;
 }
 
@@ -50,3 +50,12 @@ p {
     line-height: 1.6;
 }
 
+.text {
+    font-family: Arial, sans-serif;
+    transition: font-family 0.3s ease;
+  }
+
+  /* Font change on hover */
+  .text:hover {
+    font-family: "Times New Roman", Times, serif;
+  }
