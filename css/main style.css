@@ -78,6 +78,8 @@ p {
       padding: 5px;
       */
       float: left;
+      padding: 5px;
+      box-sizing: border-box;
       text-align: left;
       max-width: 1200px;
       margin: 0 auto;
