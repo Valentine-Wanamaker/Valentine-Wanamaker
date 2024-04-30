@@ -68,14 +68,15 @@ p {
   }
 
   .section{
-      width: 33.33%; /* Each section takes up one-third of the page width */
-      float: left; /* Float sections to the left */
-      height: 600px; /* Adjust height as needed */
+      /*width: 33.33%; /* Each section takes up one-third of the page width 
+      float: left; /* Float sections to the left 
+      height: 600px; /* Adjust height as needed 
       background-color: #f0f0f0;
       text-align: left;
       box-sizing: border-box;
       border: 1px solid #000000;
       padding: 5px;
+      */
       max-width: 1200px;
       margin: 0 auto;
   }
