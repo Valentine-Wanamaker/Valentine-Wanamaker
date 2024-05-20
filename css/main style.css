@@ -100,11 +100,11 @@ p {
       padding: 5px;
       */
       float: left;
-      padding: 5px;
+      padding: 15px;
       box-sizing: border-box;
       text-align: left;
-      min-width: 33.33%;
-      max-width: 33.33%;
+      min-width: 30%;
+      max-width: 30%;
       margin: 0 auto;
       word-wrap: break-word; /* Break long words */
       word-break: break-all; /* Break long words */
