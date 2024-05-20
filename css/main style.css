@@ -1,3 +1,24 @@
+
+a {
+    color: #1a73e8; /* Custom link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make link text bold */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for color and shadow */
+}
+
+a:hover {
+    color: #d32f2f; /* Link color on hover */
+    text-shadow: 0 0 10px rgba(0,0,0,0.5); /* Add shadow effect on hover */
+}
+
+a:visited {
+    color: #673ab7; /* Link color when visited */
+}
+
+a:active {
+    color: #fbc02d; /* Link color when active */
+}
+
 body {
     
     font-family: 'Helvetica', sans-serif;
