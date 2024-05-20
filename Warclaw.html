@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main style.css">
+    <style>
+
+        h2 {
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+        hr {
+            width: 85%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            float: left;
+            border: none;
+            border-top: 2px solid #ccc;
+        }
+        p {
+            margin-bottom: 1px;
+            margin-top: 1px;
+        }
+
+        br {
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+
+        #construction-message {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 24px;
+          color: #ff0000;
+          font-weight: bold;
+          animation: flashText 1s ease-in-out infinite;
+        }
+    
+        @keyframes flashText {
+          0%, 100% {
+            opacity: 1;
+          }
+          50% {
+            opacity: 0;
+          }
+        }
+      </style>
+</head>
+<body>
+    <div id="construction-message">Site Under Construction</div>
+    
+
+    <div class="section">
+    <h2>Section 1</h2>
+        <hr>
+        <br>
+        <p>
+        This is the content of section 1.
+        <a href="page4.html"><p class="text">Hover over.</p></a>
+        </p>
+    </div>
+
+    <div class="section">
+    <h2>Section 2</h2>
+        <p>This is the content of section 2.</p>
+    </div>
+
+    <div class="section">
+    <h2>Section 3</h2>
+        <p>This is the content of section 3.</p>
+    </div>
+
+</body>
+</html>
