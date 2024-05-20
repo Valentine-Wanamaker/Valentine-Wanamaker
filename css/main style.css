@@ -106,5 +106,8 @@ p {
       min-width: 33.33%;
       max-width: 33.33%;
       margin: 0 auto;
-      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
   }
