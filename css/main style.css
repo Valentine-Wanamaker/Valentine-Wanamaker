@@ -103,7 +103,7 @@ p {
       box-sizing: border-box;
       text-align: left;
       min-width: 33.33%;
-      max-width: 1200px;
+      max-width: 33.33%;
       margin: 0 auto;
       overflow: auto;
   }
