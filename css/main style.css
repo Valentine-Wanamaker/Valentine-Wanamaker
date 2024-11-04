@@ -74,7 +74,8 @@ nav a:hover {
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
-    
+    font-kerning: auto;
+    font-weight: bold;
     color: #000000;
     text-underline-position: below;
 }
