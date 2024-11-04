@@ -1,19 +1,41 @@
+
+a {
+    color: #15399e; /* Custom link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make link text bold */
+    transition: color 0.3s ease/* Smooth transition for color and shadow */
+}
+
+a:hover {
+    color: #688bea; /* Link color on hover */
+     /* Add shadow effect on hover */
+}
+
+a:visited {
+    color: #384f8f; /* Link color when visited */
+}
+
+a:active {
+    color: #000000; /* Link color when active */
+}
+
 body {
     
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
     margin: 0;
     padding: 20;
-    background-color: #eaeaea;
-    color: #232323;
+    background-color: #f1f1f1;
+    color: #000000;
 }
 
 header {
     background-color: #000000;
-    color: #ffffff;
+    color: #f1f1f1;
     padding-left: 10px;
     text-align: left;
-    font-family: 'Europa', sans-serif;
-    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
 }
 
 .image {
@@ -24,12 +46,12 @@ header {
 nav {
     display: flex;
     justify-content: left;
-    background-color: #eaeaea;
+    background-color: #f1f1f1;
     padding: 5px;
 }
 
 nav a {
-    color: #232323;
+    color: #000000;
     text-decoration: none;
     padding: 5px 5px;
     margin: 0 5px;
@@ -38,19 +60,24 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #eaeaea;
+    background-color: #f1f1f1;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #eaeaea;
+    background-color: #f1f1f1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #232323;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    kerning: 100;
+    font-weight: bolder;
+    color: #000000;
+    text-underline-position: below;
 }
 
 p {
@@ -63,9 +90,7 @@ p {
   }
 
   /* Font change on hover */
-  .text:hover {
-    font-family: "Times New Roman", Times, serif;
-  }
+  
 
   .section1{
       /*width: 33.33%; /* Each section takes up one-third of the page width 
@@ -78,12 +103,15 @@ p {
       padding: 5px;
       */
       float: left;
-      padding: 5px;
+      padding-right: 50px;
       box-sizing: border-box;
       text-align: left;
-      min-width: 33.33%;
-      max-width: 1200px;
+      min-width: 10%;
+      max-width: 10%;
       margin: 0 auto;
+      word-wrap: normal; /* Break long words */
+      word-break: normal; /* Break long words */
+      overflow-wrap: normal; /* Ensure long words wrap */
   }
 
   .section2{
@@ -97,12 +125,15 @@ p {
     padding: 5px;
     */
     float: left;
-    padding: 5px;
+    padding-right: 50px;
     box-sizing: border-box;
     text-align: left;
-    min-width: 33.33%;
-    max-width: 1200px;
+    min-width: 35%;
+    max-width: 35%;
     margin: 0 auto;
+    word-wrap: normal; /* Break long words */
+    word-break: normal; /* Break long words */
+    overflow-wrap: normal; /* Ensure long words wrap */
 }
 
 .section3{
@@ -116,10 +147,13 @@ p {
     padding: 5px;
     */
     float: left;
-    padding: 5px;
+    padding-right: 50px;
     box-sizing: border-box;
     text-align: left;
-    min-width: 33.33%;
-    max-width: 1200px;
+    min-width: 40%;
+    max-width: 40%;
     margin: 0 auto;
+    word-wrap: normal; /* Break long words */
+    word-break: normal; /* Break long words */
+    overflow-wrap: normal; /* Ensure long words wrap */
 }
