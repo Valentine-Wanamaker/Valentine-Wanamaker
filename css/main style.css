@@ -3,12 +3,12 @@ a {
     color: #15399e; /* Custom link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make link text bold */
-    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for color and shadow */
+    transition: color 0.3s ease/* Smooth transition for color and shadow */
 }
 
 a:hover {
     color: #688bea; /* Link color on hover */
-    text-shadow: 0 0 10px rgba(0,0,0,0.5); /* Add shadow effect on hover */
+     /* Add shadow effect on hover */
 }
 
 a:visited {
@@ -21,17 +21,17 @@ a:active {
 
 body {
     
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
     margin: 0;
     padding: 20;
-    background-color: #dae0d9;
+    background-color: #f1f1f1;
     color: #000000;
 }
 
 header {
     background-color: #000000;
-    color: #dae0d9;
+    color: #f1f1f1;
     padding-left: 10px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -46,12 +46,12 @@ header {
 nav {
     display: flex;
     justify-content: left;
-    background-color: #eaeaea;
+    background-color: #f1f1f1;
     padding: 5px;
 }
 
 nav a {
-    color: #232323;
+    color: #000000;
     text-decoration: none;
     padding: 5px 5px;
     margin: 0 5px;
@@ -60,14 +60,14 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #dae0d9;
+    background-color: #f1f1f1;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #dae0d9;
+    background-color: #f1f1f1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -108,9 +108,9 @@ p {
       min-width: 25%;
       max-width: 25%;
       margin: 0 auto;
-      word-wrap: break-word; /* Break long words */
-      word-break: break-all; /* Break long words */
-      overflow-wrap: break-word; /* Ensure long words wrap */
+      word-wrap: normal; /* Break long words */
+      word-break: normal; /* Break long words */
+      overflow-wrap: normal; /* Ensure long words wrap */
   }
 
   .section2{
@@ -130,9 +130,9 @@ p {
     min-width: 25%;
     max-width: 25%;
     margin: 0 auto;
-    word-wrap: break-word; /* Break long words */
-    word-break: break-all; /* Break long words */
-    overflow-wrap: break-word; /* Ensure long words wrap */
+    word-wrap: normal; /* Break long words */
+    word-break: normal; /* Break long words */
+    overflow-wrap: normal; /* Ensure long words wrap */
 }
 
 .section3{
@@ -152,7 +152,7 @@ p {
     min-width: 40%;
     max-width: 40%;
     margin: 0 auto;
-    word-wrap: break-word; /* Break long words */
-    word-break: break-all; /* Break long words */
-    overflow-wrap: break-word; /* Ensure long words wrap */
+    word-wrap: normal; /* Break long words */
+    word-break: normal; /* Break long words */
+    overflow-wrap: normal; /* Ensure long words wrap */
 }
