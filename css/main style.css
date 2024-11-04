@@ -1,22 +1,22 @@
 
 a {
-    color: #1a73e8; /* Custom link color */
+    color: #15399e; /* Custom link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make link text bold */
     transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for color and shadow */
 }
 
 a:hover {
-    color: #d32f2f; /* Link color on hover */
+    color: #688bea; /* Link color on hover */
     text-shadow: 0 0 10px rgba(0,0,0,0.5); /* Add shadow effect on hover */
 }
 
 a:visited {
-    color: #673ab7; /* Link color when visited */
+    color: #384f8f; /* Link color when visited */
 }
 
 a:active {
-    color: #fbc02d; /* Link color when active */
+    color: #000000; /* Link color when active */
 }
 
 body {
@@ -25,13 +25,13 @@ body {
     font-size: small;
     margin: 0;
     padding: 20;
-    background-color: #fafff9;
+    background-color: #dae0d9;
     color: #000000;
 }
 
 header {
     background-color: #000000;
-    color: #ffffff;
+    color: #dae0d9;
     padding-left: 10px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -60,22 +60,23 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #eaeaea;
+    background-color: #dae0d9;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #eaeaea;
+    background-color: #dae0d9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: small;
-    font-weight: bold;
+    font-size: medium;
+    
     color: #000000;
+    text-underline-position: below;
 }
 
 p {
@@ -88,9 +89,7 @@ p {
   }
 
   /* Font change on hover */
-  .text:hover {
-    font-family: "Times New Roman", Times, serif;
-  }
+  
 
   .section1{
       /*width: 33.33%; /* Each section takes up one-third of the page width 
