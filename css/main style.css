@@ -22,7 +22,7 @@ a:active {
 body {
     
     font-family: 'Montserrat', sans-serif;
-    font-size: smaller;
+    font-size: x-small;
     margin: 0;
     padding: 20;
     background-color: #f1f1f1;
@@ -74,7 +74,7 @@ nav a:hover {
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
-    kerning: 3px;
+    kerning: 100;
     font-weight: bolder;
     color: #000000;
     text-underline-position: below;
