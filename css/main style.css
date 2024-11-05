@@ -1,4 +1,19 @@
 
+summary {
+    list-style: none;
+  }
+  
+  /* Add a plus before the summary text */
+  summary::after {
+    content: '+';
+    margin-left: 6px;
+  }
+  
+  /* Change the plus to a minus when details are expanded */
+  details[open] summary::after {
+    content: '-';
+  }
+
 a {
     color: #15399e; /* Custom link color */
     text-decoration: none; /* Remove underline */
@@ -7,6 +22,7 @@ a {
 }
 
 a:hover {
+    cursor: pointer;
     color: #688bea; /* Link color on hover */
      /* Add shadow effect on hover */
 }
