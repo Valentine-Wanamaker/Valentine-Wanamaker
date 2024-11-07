@@ -128,8 +128,8 @@ p {
     padding-right: 50px;
     box-sizing: border-box;
     text-align: left;
-    min-width: 35%;
-    max-width: 35%;
+    min-width: 40%;
+    max-width: 40%;
     margin: 0 auto;
     word-wrap: normal; /* Break long words */
     word-break: normal; /* Break long words */
