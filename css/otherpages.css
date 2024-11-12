@@ -1,6 +1,20 @@
+summary {
+    list-style: none;
+  }
+  
+  /* Add a plus before the summary text */
+  summary::after {
+    content: '+';
+    margin-left: 6px;
+  }
+  
+  /* Change the plus to a minus when details are expanded */
+  details[open] summary::after {
+    content: '-';
+  }
 
 a {
-    color: #15399e; /* Custom link color */
+    color: #1444ca; /* Custom link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make link text bold */
     transition: color 0.3s ease/* Smooth transition for color and shadow */
@@ -106,8 +120,8 @@ p {
       padding-right: 50px;
       box-sizing: border-box;
       text-align: left;
-      min-width: 10%;
-      max-width: 10%;
+      min-width: 20%;
+      max-width: 20%;
       margin: 0 auto;
       word-wrap: normal; /* Break long words */
       word-break: normal; /* Break long words */
@@ -150,8 +164,8 @@ p {
     padding-right: 50px;
     box-sizing: border-box;
     text-align: left;
-    min-width: 40%;
-    max-width: 40%;
+    min-width: 45%;
+    max-width: 45%;
     margin: 0 auto;
     word-wrap: normal; /* Break long words */
     word-break: normal; /* Break long words */

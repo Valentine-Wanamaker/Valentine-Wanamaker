@@ -15,7 +15,7 @@ summary {
   }
 
 a {
-    color: #15399e; /* Custom link color */
+    color: #1444ca; /* Custom link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make link text bold */
     transition: color 0.3s ease/* Smooth transition for color and shadow */
@@ -55,9 +55,17 @@ header {
 }
 
 .image {
-    width: 40%; /* Adjust as needed */
+    padding: 10px;
+    max-height: 48%;
+    max-width: 48%; /* Adjust as needed */
     float: right; /* Float image to the right */
   }
+.image-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
+}
 
 nav {
     display: flex;
@@ -122,8 +130,8 @@ p {
       padding-right: 50px;
       box-sizing: border-box;
       text-align: left;
-      min-width: 25%;
-      max-width: 25%;
+      min-width: 30%;
+      max-width: 30%;
       margin: 0 auto;
       word-wrap: normal; /* Break long words */
       word-break: normal; /* Break long words */
@@ -166,8 +174,8 @@ p {
     padding-right: 50px;
     box-sizing: border-box;
     text-align: left;
-    min-width: 40%;
-    max-width: 40%;
+    min-width: 45%;
+    max-width: 45%;
     margin: 0 auto;
     word-wrap: normal; /* Break long words */
     word-break: normal; /* Break long words */
